@@ -1,0 +1,6 @@
+framework module IDTestSuperImages {
+  umbrella header "IDTestSuperImages-umbrella.h"
+
+  export *
+  module * { export * }
+}

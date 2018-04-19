@@ -1,0 +1,16 @@
+PODS:
+  - IDTestSuperImages (0.1.0)
+
+DEPENDENCIES:
+  - IDTestSuperImages (from `../`)
+
+EXTERNAL SOURCES:
+  IDTestSuperImages:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IDTestSuperImages: 38717d7285bdc8257adf7607a71a07b660e2667a
+
+PODFILE CHECKSUM: 6012fb9b98e7be1d5e9856e4161a44d468f8b9ea
+
+COCOAPODS: 1.5.0

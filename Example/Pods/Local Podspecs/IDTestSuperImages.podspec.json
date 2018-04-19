@@ -1,0 +1,22 @@
+{
+  "name": "IDTestSuperImages",
+  "version": "0.1.0",
+  "summary": "A short description of IDTestSuperImages.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Itesh Dutt/IDTestSuperImages",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Itesh Dutt": "iteshdutt@yahoo.co.in"
+  },
+  "source": {
+    "git": "https://github.com/Itesh Dutt/IDTestSuperImages.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "IDTestSuperImages/Classes/**/*"
+}

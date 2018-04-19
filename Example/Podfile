@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IDTestSuperImages_Example' do
+  pod 'IDTestSuperImages', :path => '../'
+
+  target 'IDTestSuperImages_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
