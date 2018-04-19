@@ -7,17 +7,18 @@
 //
 
 import UIKit
-
+// Step 1: Dont forget to import Pod
+import IDTestSuperImages
 class ViewController: UIViewController {
 
+    // Step 2:
+    //Declare or connect image view. Be sure to set the width and height constriants to same value
+    
+    @IBOutlet weak var testImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        // Step 3: Call round value and color on image view
+        self.testImageView.roundViewWith(borderColor: UIColor.white, borderWidth: 2)
     }
 
 }

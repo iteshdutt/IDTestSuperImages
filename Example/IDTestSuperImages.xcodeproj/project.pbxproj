@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		1ABAB84C778F099FC8CDF6C1 /* Pods_IDTestSuperImages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDTestSuperImages_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A255512016C2CF7A95F2A9 /* Pods-IDTestSuperImages_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDTestSuperImages_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDTestSuperImages_Example/Pods-IDTestSuperImages_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		371C3CAED6007FA7AB877F8C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		371C3CAED6007FA7AB877F8C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* IDTestSuperImages_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDTestSuperImages_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,11 +41,11 @@
 		607FACE51AFB9204008FA782 /* IDTestSuperImages_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDTestSuperImages_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A0481C2D5AC5C02FC1BEFA08 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A0481C2D5AC5C02FC1BEFA08 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A6E15F7D66DC914F8FEF8018 /* Pods_IDTestSuperImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IDTestSuperImages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B797DFBF660881BDDC5E29B5 /* Pods-IDTestSuperImages_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDTestSuperImages_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDTestSuperImages_Tests/Pods-IDTestSuperImages_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3669C83046E7D3AAE9D1C9A /* Pods-IDTestSuperImages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDTestSuperImages_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-IDTestSuperImages_Example/Pods-IDTestSuperImages_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D526158B03BB9117C45E912A /* IDTestSuperImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IDTestSuperImages.podspec; path = ../IDTestSuperImages.podspec; sourceTree = "<group>"; };
+		D526158B03BB9117C45E912A /* IDTestSuperImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IDTestSuperImages.podspec; path = ../IDTestSuperImages.podspec; sourceTree = "<group>"; };
 		FC54096CAB970F5A8650D834 /* Pods-IDTestSuperImages_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDTestSuperImages_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IDTestSuperImages_Tests/Pods-IDTestSuperImages_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -512,6 +512,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDTestSuperImages_Example.app/IDTestSuperImages_Example";
 			};
 			name = Debug;
 		};
@@ -529,6 +530,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDTestSuperImages_Example.app/IDTestSuperImages_Example";
 			};
 			name = Release;
 		};
